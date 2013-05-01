@@ -8,4 +8,4 @@ from django.template import RequestContext
 import datetime
 
 def home_page(request):
-    return render_to_response('index.html',context_instance=RequestContext(request))
+    return render_to_response('index2.html',context_instance=RequestContext(request))
